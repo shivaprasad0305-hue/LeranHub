@@ -15,3 +15,17 @@ app.get("/health", (req, res) => {
 });
 
 module.exports = app;
+app.get("/courses", (req, res) => {
+    res.status(200).json({
+        courses: [
+            {
+                id: 1,
+                name: "DevOps Fundamentals"
+            },
+            {
+                id: 2,
+                name: "Node.js Basics"
+            }
+        ]
+    });
+});
