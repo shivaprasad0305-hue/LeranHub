@@ -20,11 +20,13 @@ app.get("/courses", (req, res) => {
         courses: [
             {
                 id: 1,
-                name: "DevOps Fundamentals"
+                name: "DevOps Fundamentals",
+                category: "devops"
             },
             {
                 id: 2,
-                name: "Node.js Basics"
+                name: "Node.js Basics",
+                category: "backend development"
             }
         ]
     });
