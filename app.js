@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Welcome to LearnHub Backend!");
+  res.send("Welcome to LearnHub -version A!");
 });
 
 app.get("/health", (req, res) => {
